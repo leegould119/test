@@ -1,0 +1,42 @@
+/* 
+  ICONS 
+  AUTHOR:LEE
+ 
+*/
+
+/* HOME PAGE */
+.design-icon {
+  background-image: url(../img/design-white.svg);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 20px auto;
+}
+
+.coding-icon {
+  background-image: url(../img/coding-white.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 30px;
+  display: block;
+  margin: 25px auto;
+}
+
+.ux-design-icon {
+  background-image: url(../img/ux-design-white.svg);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 37px;
+  display: block;
+  margin: 20px auto;
+}
+
+.architecture-icon {
+  background-image: url(../img/arch-white.svg);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 31px;
+  display: block;
+  margin: 22px auto;
+}

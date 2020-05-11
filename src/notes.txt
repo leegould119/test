@@ -1,0 +1,63 @@
+https://nodejs.org/en/download/
+https://simplegrid.io/
+
+check node.
+node -v
+if node is installed. 
+
+step 1
+
+type in 
+npm init
+package name : whatever name
+version: 1.0.0
+
+you should see package.json
+---------------------------
+
+step 2
+
+npm install -g http-server
+open package.json 
+add this line in scripts.
+"start":"http-server"
+---------------------------
+
+step 3 
+
+index.html 
+set up the template. 
+---------------------------
+
+step 4
+
+https://favicon.io/favicon-generator/
+set up the favicon.ico
+---------------------------
+
+step 5 
+
+run command start, 
+type in 
+localhost:8080 
+to access your page. 
+
+---------------------------
+
+satep 6
+
+create main.css
+create reset.css
+
+get the reset code from 
+
+https://cssreset.com/scripts/eric-meyer-reset-css/
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,307 @@
+/* 
+using this link for type scales
+https://type-scale.com/
+using fonts from google fonts
+https://fonts.google.com/
+color codes 
+https://htmlcolorcodes.com/color-chart/
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Roboto:wght@300;500;700;900&display=swap');
+@import url(typography.css);
+@import url(icons.css);
+@import url(images.css);
+
+/* apple devices */
+
+textarea,
+input.text,
+input[type='text'],
+input[type='button'],
+input[type='submit'],
+.input-checkbox {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+/* apple devices */
+
+/* 
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif; 
+   font-family: 'Encode Sans Condensed', sans-serif;
+*/
+
+.logo {
+  background-image: url('../img/logo-small.svg');
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  display: block;
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+/* COLORS */
+.dark-green {
+  /* HEX: #145A32 
+     advantage is that this is faster to render. 
+     disadvantage is that there is no alpha channel 
+  */
+
+  /* RGBA: 20,90,50,1
+    r = red channel
+    g = green channel
+    b = blue channel 
+    a = transparency
+  */
+
+  background-color: #145a32;
+  /* font color */
+  color: #ffffff;
+}
+
+.dark-grey {
+  /* 23, 32, 42  */
+  background-color: #363637;
+  color: #ffffff;
+}
+
+.light-grey {
+  /* 178, 186, 187  */
+  background-color: #cccccc;
+  color: #ffffff;
+}
+
+.light-grey-border-body {
+  /* 178, 186, 187  */
+  /* border: 1px solid #cccccc; */
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.header-border {
+  border-bottom: 2px solid rgb(84, 84, 85);
+}
+
+.light-orange {
+  /* 241, 196, 15 */
+  /* background-color: #bf9b30; */
+  color: #ffffff;
+  background-color: rgba(191, 155, 48, 1);
+}
+.darker-orange {
+  color: #ffffff;
+  background-color: rgba(171, 125, 18, 1);
+}
+.extra-light-grey {
+  background-color: #f4f4f4;
+}
+.white-background {
+  background-color: #ffffff;
+}
+
+/* HEADER */
+
+/* wrappers */
+.heading-content-wrapper {
+  padding: 15px 0px 10px 20px;
+  height: 30px;
+}
+.heading-content-wrapper h2 {
+  font-weight: 500;
+}
+
+.body-content-wrapper {
+  padding: 10px 0px 10px 20px;
+}
+.section-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: rgba(54, 54, 55, 1);
+  overflow: hidden;
+  position: fixed;
+  z-index: 5000;
+  margin-bottom: 40px;
+  top: 0px;
+}
+.footer {
+  width: calc(100% - 30px);
+  height: auto;
+  background-color: rgba(54, 54, 55, 1);
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+nav ul li {
+  width: auto;
+  padding: 15px 0px 15px 0px;
+
+  float: left;
+  margin-right: 10px;
+}
+nav ul li a {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all ease-in-out 0.4s;
+}
+nav ul li a:hover {
+  color: rgba(191, 155, 48, 1);
+}
+
+/* FORM ELEMENTS */
+
+form {
+  padding: 10px;
+  width: calc(100% - 20px);
+  overflow: hidden;
+}
+input[type='text'],
+input[type='email'] {
+  width: calc(100% - 20px);
+  display: block;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+}
+textarea {
+  width: calc(100% - 20px);
+  display: block;
+  border: 1px solid rgb(204, 204, 204);
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  height: 120px;
+  resize: none;
+}
+/* buttons*/
+.button,
+input[type='button'],
+input[type='submit'] {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  font-weight: 700;
+  display: block;
+  padding: 6px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  width: 100px;
+  text-align: center;
+  margin: 30px auto 0px;
+  transition: all ease-in-out 0.4s;
+  cursor: pointer;
+  border: none;
+}
+
+.button {
+  text-decoration: none;
+}
+
+.orange-btn {
+  background-color: rgba(191, 155, 48, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.orange-btn:hover {
+  background-color: rgba(84, 84, 84, 1);
+}
+
+.grey-btn {
+  background-color: rgba(84, 84, 84, 1);
+  color: rgba(255, 255, 255, 1);
+}
+.grey-btn:hover {
+  background-color: rgba(191, 155, 48, 1);
+}
+
+.slider-button {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: block;
+  background-color: rgba(204, 204, 204, 1);
+  border: 1px solid rgba(240, 240, 240, 1);
+  z-index: 200;
+}
+
+.slider-btn1 {
+  right: 100px;
+  bottom: 20px;
+}
+.slider-btn2 {
+  right: 125px;
+  bottom: 20px;
+}
+.slider-btn3 {
+  right: 150px;
+  bottom: 20px;
+}
+.slider-button:hover,
+.slider-button-active {
+  background-color: rgba(191, 155, 48, 1);
+}
+
+/* banner styles */
+
+.banner {
+  position: relative;
+  background-image: url('../img/banner-placeholder.jpg');
+  width: calc(100% - 40px);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 48px;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.banner h1 {
+  font-weight: 500;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+.banner p {
+  margin: 0px;
+}
+
+.intro-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: rgba(54, 54, 55, 0.4);
+  width: calc(60% - 80px);
+  height: auto;
+  padding: 40px;
+}
+
+/* mobile styles  */
+@media only screen and (max-width: 540px) {
+  /* 540px */
+  .mobile-padding-bottom {
+    padding-bottom: 40px;
+  }
+
+  .light-orange p,
+  .dark-grey p {
+    text-align: center;
+  }
+  body {
+    font-size: 12px;
+  }
+}

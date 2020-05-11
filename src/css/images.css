@@ -1,0 +1,55 @@
+/* Images
+ AUTHOR: LEE 
+*/
+
+/* home page */
+
+.virgin-media {
+  display: block;
+  background-image: url('../img/virgin-media.jpg');
+  background-size: contain;
+  width: 175px;
+  height: 175px;
+  /* border-radius: 50%; */
+  margin: 20px auto;
+}
+
+.paradox {
+  display: block;
+  background-image: url('../img/paradox.jpg');
+  background-size: contain;
+  width: 175px;
+  height: 175px;
+  /* border-radius: 50%; */
+  margin: 20px auto;
+}
+
+.s-shady-records {
+  display: block;
+  background-image: url('../img/s-shady-records.jpg');
+  background-size: contain;
+  width: 175px;
+  height: 175px;
+  /* border-radius: 50%; */
+  margin: 20px auto;
+}
+
+.space-x {
+  display: block;
+  background-image: url('../img/space-x.jpg');
+  background-size: contain;
+  width: 175px;
+  height: 175px;
+  /* border-radius: 50%; */
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 812px) {
+  .virgin-media,
+  .paradox,
+  .s-shady-records,
+  .space-x {
+    width: 130px;
+    height: 130px;
+  }
+}
