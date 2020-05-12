@@ -1,0 +1,110 @@
+/* 
+    NEW MAIN CSS FILE
+    AUTHOR: LEE GOULD
+*/
+
+
+/* 
+ types 
+ font-family: 'Lobster', cursive;
+ font-family: 'Oswald', sans-serif;
+ font-family: 'Open Sans', sans-serif;
+*/
+header{
+    width:100%;
+    position: fixed;
+    display: block;
+
+}
+
+/* logo */
+.logo{
+
+    display: inline-block;
+}
+.logo h1 {
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
+}
+nav {
+
+
+    float: right;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+nav ul {
+ 
+    list-style: none;
+    display: inline;
+    
+}
+
+nav ul li {
+    float: left;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgba(130,130,130,1);
+    transition: all ease-in-out 0.4s;
+}
+
+nav ul li a:hover{
+    color: rgba(100,100,100,1);
+}
+
+/* TYPOGRAPHY */
+html {font-size: 100%;} /*16px*/
+
+body {
+  background-color: white;
+  font-weight: 400;
+  line-height: 1.65;
+  color: #333;
+
+}
+
+
+
+p {margin-bottom: 1.15rem; font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1.05rem;
+  font-family: 'Oswald', sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  line-height: 1.15;
+  color: #F47E2B;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.802em;
+}
+
+h2 {font-size: 1.602em;}
+
+h3 {font-size: 1.424em;}
+
+h4 {font-size: 1.266em;}
+
+h5 {font-size: 1.125em;}
+
+small, .text_small {font-size: 0.889em;}
+
+
+/* 
+height: 1vh;
+*/
+
+body{
+    position: relative;
+    height: 100%;
+    
+}
+
+

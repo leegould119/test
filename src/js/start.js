@@ -5,7 +5,16 @@
     https://developer.mozilla.org/
 */
 
-let name = 'Anders'
-let message = ` Hello ${name}`
 
-console.log(message)
+
+
+
+let name = 'Anders';
+let message = `Hello ${name}`;
+
+
+
+
+console.log(message);
+
+changeText(message);
